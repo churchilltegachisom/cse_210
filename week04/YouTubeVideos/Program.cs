@@ -9,23 +9,23 @@ class Program
 
         // Create first video
         Video video1 = new Video("C# Tutorial", "CodeAcademy", 600);
-        video1.AddComment(new Comment("Alice", "Very helpful, thank you!"));
-        video1.AddComment(new Comment("Bob", "Can you make one on OOP?"));
-        video1.AddComment(new Comment("Charlie", "I finally understand classes!"));
+        video1.AddComment(new Comment("Favour", "Very helpful, thank you!"));
+        video1.AddComment(new Comment("Bambi", "Can you make one on OOP?"));
+        video1.AddComment(new Comment("Charles", "I finally understand classes!"));
         videos.Add(video1);
 
         // Create second video
         Video video2 = new Video("Funny Cat Compilation", "PetWorld", 300);
-        video2.AddComment(new Comment("Dana", "I laughed so hard!"));
-        video2.AddComment(new Comment("Eli", "My kids loved it."));
-        video2.AddComment(new Comment("Fay", "Cute overload!"));
+        video2.AddComment(new Comment("Diamond", "I laughed so hard!"));
+        video2.AddComment(new Comment("Precious", "My kids loved it."));
+        video2.AddComment(new Comment("Emmanuel", "Cute overload!"));
         videos.Add(video2);
 
         // Create third video
         Video video3 = new Video("Top 10 Travel Destinations", "Wanderlust", 900);
-        video3.AddComment(new Comment("Grace", "Adding these to my list!"));
-        video3.AddComment(new Comment("Henry", "Been to #3, it's amazing."));
-        video3.AddComment(new Comment("Ivy", "Beautiful visuals."));
+        video3.AddComment(new Comment("Tega", "Adding these to my list!"));
+        video3.AddComment(new Comment("Irene", "Been to #3, it's amazing."));
+        video3.AddComment(new Comment("Boma", "Beautiful visuals."));
         videos.Add(video3);
 
         // Display each video info
